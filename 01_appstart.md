@@ -4,9 +4,8 @@ OK, the customer has downloaded the app from Google Play or the AppStore. Upon t
 
 ## Customer's Device
 
-* Is this a device we support? Maybe the customer side loaded the app. 
-* Is this an OS version we support? We need to take a stand and not support early OS versions, e.g., Android 2.2. 
-* Is this device connected to the internet? Think airplane mode. 
-* Does this device have a strong wifi/cell connection? 
-** If we have a weak connection, do we want to notify the customer? 
+* **Is this a device we support?** Maybe the customer side loaded the app. Maybe we didn't properly configure our account with Google Play or the AppStore. 
+* **Is this an OS version we support?** We need to take a stand and not support early OS versions, e.g., Android 2.2. 
+* **Is this device connected to the internet?** Think airplane mode. We don't want our Application heavily dependent on an initialization file upon startup. 
+* **Does this device have a strong wifi/cell connection?** If we have a weak connection, do we want to notify the customer? 
 
