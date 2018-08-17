@@ -8,6 +8,7 @@ The goal of these writings is to help me track past experiences and insights whe
 * [UI Design](03_uidesign.md)
 * [Hybrid](04_hybrid.md)
 * [Health Check](05_healthcheck.md)
-* [End](06_end.md)
+* [Third Party](06_thirdparty.md)
+* [End](07_end.md)
 
 [Next](01_appstart.md)

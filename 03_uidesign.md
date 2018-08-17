@@ -2,9 +2,9 @@
 
 I will tread lightly on this topic and provide some general concepts that I have observed in the past. 
 
-## Weird Hamburger Menu Hate
+## Weird Hamburger Menu Disgust
 
-From an engineer perspective, the off-canvas side menu or the '[hamburger](https://en.wikipedia.org/wiki/Hamburger_button)' menu button is a great asset. Due to it's vertical nature, ability contain sub menu items, and it's ubiquity in native apps, it's a very good option to use. Unfortunately there's a small set of UI/UX designers who take an extreme position against it, who believe it's a lazy effort. I 100% disagree with this extreme position. 
+From an engineer perspective, the off-canvas side menu or the '[hamburger](https://en.wikipedia.org/wiki/Hamburger_button)' menu button is a great asset. Due to it's vertical nature, ability to contain sub menu items, and it's ubiquity in native apps, it's a very good option to use. Unfortunately there's a small set of UI/UX designers who take an extreme position against it, who believe it's a lazy effort. I very much disagree with this extreme position. 
 
 Indeed, the off-canvas menu can be abused. It's not needed if an app only has two items in it. It's also wrong to have 10 screen scrolls of options in the menu. 
 
@@ -16,7 +16,7 @@ In my experience, both design and product teams focus on iOS first. That's fine.
 
 ---
 
-**Android is becoming iOS**: We should recognize, Google continues to take cues from Apple and the ecosystems for design, UI/UX are converging. This is a good thing. 
+**[Android and iOS are converging](https://www.androidcentral.com/rapidly-evaporating-differences-between-ios-and-android)**: Thankfully, Android and iOS continue to converge in hardware and UX. This is a good thing and should help Product and Design to deliver a consistent feature set across platforms. 
 
 ---
 
