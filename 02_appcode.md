@@ -1,6 +1,6 @@
 # App Code
 
-OK, this section isn't about _how_ the app is coded but rather the minimum set of tools and concepts for UI and QA engineers to be able to do their job efficiently and build solid App Code.
+OK, this section isn't about _how_ the app is coded but rather the minimum set of tools and concepts for Dev and QA engineers to be able to do their job efficiently and build solid App Code.
 
 ## App Architecture
 
@@ -16,8 +16,8 @@ It's really important for the engineer to run everything on a laptop, not connec
 
 * **Avoid downtime:** There are too many times when a QA/dev environment is broken, unavailable, slow, etc. 
 * **Experience chaos:** With a mock environment, the engineer should be able to vet out the app when bad things happen. For example:
-  * _No connection release:_ does your app properly handle connection timeouts? Try making a network call and the server never releases the connection. 
-  * _Garbage responses:_ does your app properly handle invalid data? Seriously, simply respond with 'garbage' and see how the app responds. 
+  * _No connection release:_ does your app properly handle connection timeouts? Try making a network call from the app and make the mock server _not_ release the connection. 
+  * _Garbage responses:_ does your app properly handle invalid data? The mock server should respond with unexpected scenarios, like 'strings' in place of numbers, 'null', empty/missing values, etc.
   * _Slow responses:_ does your app properly handle slow responses and thread management?
 * **Future services:** engineers should be able to create screens without the need to wait for back end services to be created. App and Service/API engineers can agree on a contract e.g. http://json-schema.org, the app engineer can stub out the future service, and start coding the app and screen immediately. 
 * **Quickly test various scenarios:** an engineer should be able to quickly toggle between mock-service-responses to experience how the app reacts and works with various response scenarios.

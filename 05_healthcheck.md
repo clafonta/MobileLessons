@@ -15,13 +15,14 @@ Infrastructure Team: "_What did you do last month? We're seeing a significant sp
 
 App Team: "_We moved the log off button to another screen._"
 
-
-In short, there is a significant amount of complexity and coordination across teams and systems. A mature monitoring and health check system is important to flag issues and provide insight into resolution paths. 
-
 ---
+
+In short, there is a significant amount of complexity and coordination across teams and systems. A mature monitoring and health check system is important to flag issues and provide insight into resolution paths. Design and system changes can and will have unexpected impacts which are difficult to predict and foresee. 
+
+
 
 ## Business Health
 
-A business centric dashboard helps fuel all employees with the knowledge that we are making a positive impact to the industry. But for an engineer, it helps point out future needs
+A business centric dashboard helps fuel all employees with the knowledge that we are making a positive impact to the industry. But for an engineer, it helps point out future needs, further drives the team's directive and value, helps validate or invalidate technical and design decisions, and more. 
 
 [Previous](04_hybrid.md) | [Next](06_thirdparty.md)
